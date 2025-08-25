@@ -146,6 +146,10 @@ footer {
     margin-bottom: 8px;
   }
 
+#switchLangBtn {
+  background-color: none;
+}
+
   footer {
   margin-top: 20px;
 }
