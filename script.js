@@ -42,7 +42,7 @@ function renderPhraseForLang(phrases, lang) {
     transP.style.fontStyle = 'italic';
     transP.style.color = '#555';
     transP.style.fontSize = '0.9em';
-    transP.style.marginTop = '2px';
+    transP.style.marginTop = '3px';
     containerDiv.appendChild(transP);
   }
 
