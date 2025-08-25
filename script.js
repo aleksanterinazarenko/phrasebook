@@ -3,17 +3,26 @@ const container = document.getElementById('phrasebook-container');
 const leftLangSelect = document.getElementById('leftLang');
 const rightLangSelect = document.getElementById('rightLang');
 
-function updateSelectOptions() {
+let lastLeftLang = leftLangSelect.value;
+let lastRightLang = rightLangSelect.value;
+
+function updateSelectOptions(changedSide) {
   const leftLang = leftLangSelect.value;
   const rightLang = rightLangSelect.value;
 
-  Array.from(rightLangSelect.options).forEach(opt => {
-    opt.disabled = opt.value === leftLang;
-  });
-
-  Array.from(leftLangSelect.options).forEach(opt => {
-    opt.disabled = opt.value === rightLang;
-  });
+  if (changedSide === 'left') {
+    if (leftLang === rightLang) {
+      rightLangSelect.value = lastLeftLang;
+    }
+    lastLeftLang = leftLang;
+    lastRightLang = rightLangSelect.value;
+  } else if (changedSide === 'right') {
+    if (rightLang === leftLang) {
+      leftLangSelect.value = lastRightLang;
+    }
+    lastRightLang = rightLang;
+    lastLeftLang = leftLangSelect.value;
+  }
 }
 
 function renderPhraseForLang(phrases, lang) {
@@ -125,12 +134,12 @@ function renderPhrasebook() {
 }
 
 leftLangSelect.addEventListener('change', () => {
-  updateSelectOptions();
+  updateSelectOptions('left');
   renderPhrasebook();
 });
 
 rightLangSelect.addEventListener('change', () => {
-  updateSelectOptions();
+  updateSelectOptions('right');
   renderPhrasebook();
 });
 
