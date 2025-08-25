@@ -142,3 +142,16 @@ fetch('phrasebook.json')
     renderPhrasebook();
   })
   .catch(err => console.error('Error loading phrasebook:', err));
+
+  const switchLangBtn = document.getElementById('switchLangBtn');
+
+switchLangBtn.addEventListener('click', () => {
+  const leftValue = leftLangSelect.value;
+  const rightValue = rightLangSelect.value;
+
+  leftLangSelect.value = rightValue;
+  rightLangSelect.value = leftValue;
+
+  updateSelectOptions();
+  renderPhrasebook();
+});

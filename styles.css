@@ -8,7 +8,7 @@ body {
   font-family: 'Segoe UI', Roboto, sans-serif;
   background: #f0f2f5;
   color: #333;
-  padding: 30px;
+  padding: 50px;
 }
 
 h1 {
@@ -17,6 +17,11 @@ h1 {
   font-size: 2.5rem;
   font-family: 'Courier New', Courier, monospace;
   color: #2c3e50;
+}
+
+h1 a {
+  text-decoration: none;
+  color: inherit;
 }
 
 .language-selectors {
@@ -34,8 +39,8 @@ label {
 }
 
 select {
-  margin-left: 10px;
-  padding: 6px 10px;
+  margin-left: 6px;
+  padding: 6px;
   font-size: 1rem;
   border: 1px solid #ccc;
   border-radius: 6px;
@@ -112,7 +117,26 @@ select:focus {
   line-height: 1.4;
 }
 
+#switchLangBtn {
+  padding: 6px 0;
+  font-size: 1em;
+  cursor: pointer;
+  border: none;
+  background-color: none;
+}
+
+footer {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 1em;
+  color: #2c3e50;
+}
+
 @media (max-width: 600px) {
+    body {
+  padding: 20px;
+}
+
   .phrase-row, .headers {
     flex-direction: column;
   }
@@ -121,4 +145,8 @@ select:focus {
     width: 100%;
     margin-bottom: 8px;
   }
+
+  footer {
+  margin-top: 20px;
+}
 }
