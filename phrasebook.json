@@ -1,113 +1,410 @@
 {
-  "Greetings": {
-    "English": {
-      "Hello": "Hello",
-      "Good morning": "Good morning",
-      "Goodbye": "Goodbye",
-      "How are you?": "How are you?",
-      "Nice to meet you": "Nice to meet you"
-    },
-    "Finnish": {
-      "Hello": "Hei",
-      "Good morning": "Hyvää huomenta",
-      "Goodbye": "Näkemiin",
-      "How are you?": "Miten voit?",
-      "Nice to meet you": "Hauska tavata"
-    },
-    "Estonian": {
-      "Hello": "Tere",
-      "Good morning": "Tere hommikust",
-      "Goodbye": "Hüvasti",
-      "How are you?": "Kuidas sul läheb?",
-      "Nice to meet you": "Meeldiv tutvuda"
-    },
-    "Erzya": {
-      "Hello": "Шумбра чи",
-      "Good morning": "Шумбра валске",
-      "Goodbye": "Вастомазонок",
-      "How are you?": "Кода тевтне?",
-      "Nice to meet you": "Кенярдан од вастомантень"
-    },
-    "Erzya-lat": {
-      "Hello": "Šumbra či",
-      "Good morning": "Šumbra valske",
-      "Goodbye": "Vastomazonok",
-      "How are you?": "Koda tävtne?",
-      "Nice to meet you": "Käńardan od vastomanteń"
-    }
-  },
-  "Travel": {
-    "English": {
-      "Where is the hotel?": "Where is the hotel?",
-      "I need a taxi.": "I need a taxi.",
-      "How much is it?": "How much is it?",
-      "Where is the train station?": "Where is the train station?",
-      "I am lost.": "I am lost."
-    },
-    "Finnish": {
-      "Where is the hotel?": "Missä hotelli on?",
-      "I need a taxi.": "Tarvitsen taksin.",
-      "How much is it?": "Paljonko se maksaa?",
-      "Where is the train station?": "Missä on rautatieasema?",
-      "I am lost.": "Olen eksynyt."
-    },
-    "Estonian": {
-      "Where is the hotel?": "Kus on hotell?",
-      "I need a taxi.": "Mul on vaja taksot.",
-      "How much is it?": "Kui palju see maksab?",
-      "Where is the train station?": "Kus on rongijaam?",
-      "I am lost.": "Ma olen eksinud."
-    },
-    "Erzya": {
-      "Where is the hotel?": "Косо инжекудось?",
-      "I need a taxi.": "Монень эряви такси.",
-      "How much is it?": "Зяро питнезэ?",
-      "Where is the train station?": "Косо ашти кшникинь станцеесь?",
-      "I am lost.": "Мон кадовинь."
-    },
-    "Erzya-lat": {
-      "Where is the hotel?": "Koso inžekudoś?",
-      "I need a taxi.": "Moneń äŕavi taksi.",
-      "How much is it?": "Źaro pitnezë?",
-      "Where is the train station?": "Koso ašti kšnikiń stancejeś?",
-      "I am lost.": "Mon kadoviń."
-    }
-  },
-  "Food": {
-    "English": {
-      "I am hungry.": "I am hungry.",
-      "The food is delicious.": "The food is delicious.",
-      "Can I see the menu?": "Can I see the menu?",
-      "I am thirsty.": "I am thirsty.",
-      "No meat, please.": "No meat, please."
-    },
-    "Finnish": {
-      "I am hungry.": "Minulla on nälkä.",
-      "The food is delicious.": "Ruoka on herkullista.",
-      "Can I see the menu?": "Voinko nähdä ruokalistan?",
-      "I am thirsty.": "Minulla on jano.",
-      "No meat, please.": "Ei lihaa, kiitos."
-    },
-    "Estonian": {
-      "I am hungry.": "Mul on kõht tühi.",
-      "The food is delicious.": "Toit on maitsev.",
-      "Can I see the menu?": "Kas ma saan menüüd näha?",
-      "I am thirsty.": "Mul on janu.",
-      "No meat, please.": "Ilma lihata, palun."
-    },
-    "Erzya": {
-      "I am hungry.": "Пекем вачсь.",
-      "The food is delicious.": "Ярсамось пек тантей.",
-      "Can I see the menu?": "Мереви ваномс лемконёв?",
-      "I am thirsty.": "Симемам сась.",
-      "No meat, please.": "Сывельтеме, инеськеть."
-    },
-    "Erzya-lat": {
-      "I am hungry.": "Pekem vačś.",
-      "The food is delicious.": "Jarsamoś pek tantej.",
-      "Can I see the menu?": "Merevi vanoms lämkońov?",
-      "I am thirsty.": "Simemam saś.",
-      "No meat, please.": "Sïvelteme, ineśkeť."
-    }
-  }
+   "Greetings": [
+      {
+         "English": "Hello!",
+         "Finnish": "Hei!",
+         "Erzya": "Чумбра чи!",
+         "Erzya-lat": "Čumbra či!"
+      },
+      {
+         "English": "Hello! Hi!",
+         "Finnish": "Hei! Moi! Terve!",
+         "Erzya": "Ӓрят! Сюк! Шумбра ульть!",
+         "Erzya-lat": "Äŕat! Śuk! Šumbra ulť!"
+      },
+      {
+         "English": "Hello everybody! Hi everyone!",
+         "Finnish": "Hei kaikki! Hei kaikille!",
+         "Erzya": "Чумбра чи вӓсенень! Уледе шумбрат!",
+         "Erzya-lat": "Čumbra či väseneń! Ulede šumbrat!"
+      },
+      {
+         "English": "Good morning!",
+         "Finnish": "Hyvää huomenta!",
+         "Erzya": "Чумбра валске! Паро валске!",
+         "Erzya-lat": "Čumbra valske! Paro valske!"
+      },
+      {
+         "English": "Good morning, Sir!",
+         "Finnish": "Hyvää huomenta (herra)!",
+         "Erzya": "Чумбра валске (азоро)!",
+         "Erzya-lat": "Čumbra valske (azoro)!"
+      },
+      {
+         "English": "Good morning, Mr Johnson!",
+         "Finnish": "Hyvää huomenta, herra Johnson!",
+         "Erzya": "Чумбра валске, Джонсон-азоро!",
+         "Erzya-lat": "Čumbra valske, Džonson-azoro!"
+      },
+      {
+         "English": "Morning!",
+         "Finnish": "Huomenta!",
+         "Erzya": "Чумбра валске!",
+         "Erzya-lat": "Čumbra valske!"
+      },
+      {
+         "English": "Good afternoon!",
+         "Finnish": "Hyvää päivää!",
+         "Erzya": "Чумбра чи! Паро чи!",
+         "Erzya-lat": "Čumbra či! Paro či!"
+      },
+      {
+         "English": "Good afternoon, Madam!",
+         "Finnish": "Hyvää päivää (rouva)!",
+         "Erzya": "Чумбра чи (азорава)!",
+         "Erzya-lat": "Čumbra či (azorava)!"
+      },
+      {
+         "English": "Good afternoon, Mrs Johnson!",
+         "Finnish": "Hyvää päivää, rouva Johnson!",
+         "Erzya": "Чумбра чи, Джонсон-азорава!",
+         "Erzya-lat": "Čumbra či, Džonson-azorava!"
+      },
+      {
+         "English": "Good afternoon!",
+         "Finnish": "Päivää!",
+         "Erzya": "Чумбра чи!",
+         "Erzya-lat": "Čumbra či!"
+      },
+      {
+         "English": "Good evening!",
+         "Finnish": "Hyvää iltaa!",
+         "Erzya": "Чумбра чокшне! Паро чокшне!",
+         "Erzya-lat": "Čumbra čokšne! Paro čokšne!"
+      },
+      {
+         "English": "Good evening, miss Johnson!",
+         "Finnish": "Hyvää iltaa, neiti Johnson!",
+         "Erzya": "Чумбра чокшне, Джонсон-тейтерь!",
+         "Erzya-lat": "Čumbra čokšne, Džonson-tejteŕ!"
+      },
+      {
+         "English": "Good evening, ladies and gentlemen!",
+         "Finnish": "Hyvää iltaa, hyvät naiset ja herrat!",
+         "Erzya": "Чумбра чокшне, азорт-азораваткак!",
+         "Erzya-lat": "Čumbra čokšne, azort-azoravatkak!"
+      },
+      {
+         "English": "Evening!",
+         "Finnish": "Iltaa!",
+         "Erzya": "Чумбра чокшне!",
+         "Erzya-lat": "Čumbra čokšne!"
+      }
+   ],
+   "Farewells": [
+      {
+         "English": "Good night!",
+         "Finnish": "Hyvää yötä!",
+         "Erzya": "Сэтьме удома (тӓть)! Сэтьме вӓ! Чумбра вӓ! Паро вӓ!",
+         "Erzya-lat": "Sëťme udoma (täť)! Sëťme vä! Čumbra vä! Paro vä!"
+      },
+      {
+         "English": "Nice to meet you!",
+         "Finnish": "Hauska tavata!",
+         "Erzya": "Мельспаро вастомс!",
+         "Erzya-lat": "Meľsparo vastoms!"
+      },
+      {
+         "English": "Nice to meet you too!",
+         "Finnish": "Hauska tavata!",
+         "Erzya": "Моненьгак мельспаро!",
+         "Erzya-lat": "Moneńgak meľsparo!"
+      },
+      {
+         "English": "Pleased to meet you!",
+         "Finnish": "Mukava tavata!",
+         "Erzya": "Кӓнярдан вастомантень!",
+         "Erzya-lat": "Käńardan vastomanteń!"
+      },
+      {
+         "English": "Pleased to meet you, Maria!",
+         "Finnish": "Mukava tavata, Maria!",
+         "Erzya": "Кӓнярдан вастомантень, Мария!",
+         "Erzya-lat": "Käńardan vastomanteń, Marija!"
+      },
+      {
+         "English": "Pleased to meet you! Such a pleasure to meet you!",
+         "Finnish": "Mukava tavata!",
+         "Erzya": "Мельспаро тӓевемс содавиксэкс! Покш мельспаро!",
+         "Erzya-lat": "Meľsparo täjevems sodaviksëks! Pokš meľsparo!"
+      },
+      {
+         "English": "Good to see you! — Thanks, you too!",
+         "Finnish": "Kiva nähdä! — Kiitos, niin sinuakin!",
+         "Erzya": "Кӓнярдан тонь / тыньк неемантень! — Сюкпря, монгак!",
+         "Erzya-lat": "Käńardan toń / tïńk nejemanteń! — Śukpŕa, mongak!"
+      },
+      {
+         "English": "Bye bye!",
+         "Finnish": "Hei hei!",
+         "Erzya": "Ӓрсек! Ульть! Чумбра ульть!",
+         "Erzya-lat": "Ärsek! Ulť! Čumbra ulť!"
+      },
+      {
+         "English": "Bye bye!",
+         "Finnish": "Hei hei!",
+         "Erzya": "Ӓрседе! Уледе! Чумбрат уледе!",
+         "Erzya-lat": "Ärsede! Ulede! Čumbrat ulede!"
+      },
+      {
+         "English": "I'm leaving now, bye bye!",
+         "Finnish": "Minä lähden nyt, hei hei!",
+         "Erzya": "Мон лисян нӓй, ӓрсек / ӓрседе!",
+         "Erzya-lat": "Mon liśan näj, ärsek / ärsede!"
+      },
+      {
+         "English": "See you! See ya!",
+         "Finnish": "Nähdään! Tapaamisiin!",
+         "Erzya": "Неемазонок! Вастомазонок! Вастомас!",
+         "Erzya-lat": "Nejemazonok! Vastomazonok! Vastomas!"
+      },
+      {
+         "English": "See you soon!",
+         "Finnish": "Nähdään pian!",
+         "Erzya": "Вастовтано куроксто!",
+         "Erzya-lat": "Vastovtano kuroksto!"
+      },
+      {
+         "English": "See you again!",
+         "Finnish": "Nähdään taas!",
+         "Erzya": "Од васто(во)мас!",
+         "Erzya-lat": "Od vasto(vo)mas!"
+      },
+      {
+         "English": "See you later!",
+         "Finnish": "Nähdään myöhemmin!",
+         "Erzya": "Вастовтано мӓйле!",
+         "Erzya-lat": "Vastovtano mäjle!"
+      },
+      {
+         "English": "Hope to see you soon!",
+         "Finnish": "Toivottavasti nähdään pian!",
+         "Erzya": "Кӓман, курок вастовтано! Кӓман, курок неевтяно!",
+         "Erzya-lat": "Käman, kurok vastovtano! Käman, kurok nejevťano!"
+      },
+      {
+         "English": "It was nice to meet you!",
+         "Finnish": "Oli kiva tavata!",
+         "Erzya": "Паро, мӓкс минь вастовинек!",
+         "Erzya-lat": "Paro, mäks miń vastovinek!"
+      },
+      {
+         "English": "See you tomorrow!",
+         "Finnish": "Huomiseen! Nähdään huomenna!",
+         "Erzya": "Вандыс! Вастовтано ванды! Неевтяно ванды!",
+         "Erzya-lat": "Vandïs! Vastovtano vandï! Nejevťano vandï!"
+      },
+      {
+         "English": "See you next week!",
+         "Finnish": "Nähdään ensi viikolla!",
+         "Erzya": "Сы таргос! Вастовтано сы таргостонть! Неевтяно сы таргостонть!",
+         "Erzya-lat": "Sï targos! Vastovtano sï targostonť! Nejevťano sï targostonť!"
+      },
+      {
+         "English": "Bye bye!",
+         "Finnish": "Näkemiin!",
+         "Erzya": "Вастомас! Васто(во)матненень!",
+         "Erzya-lat": "Vastomas! Vasto(vo)matneneń!"
+      },
+      {
+         "English": "Bye bye!",
+         "Finnish": "Näkemiin!",
+         "Erzya": "Вастомас! Васто(во)матненень!",
+         "Erzya-lat": "Vastomas! Vasto(vo)matneneń!"
+      },
+      {
+         "English": "Thank you, bye bye!",
+         "Finnish": "Kiitos, näkemiin!",
+         "Erzya": "Сюкпря, неемазонок!",
+         "Erzya-lat": "Śukpŕa, nejemazonok!"
+      },
+      {
+         "English": "Goodbye!",
+         "Finnish": "Hyvästi!",
+         "Erzya": "Неемазонок!",
+         "Erzya-lat": "Nejemazonok!"
+      }
+   ],
+   "Introductions": [
+      {
+         "English": "Hello! Who are you?",
+         "Finnish": "Hei! Kuka sinä olet?",
+         "Erzya": "Чумбра чи! Кие тон?",
+         "Erzya-lat": "Čumbra či! Kije ton?"
+      },
+      {
+         "English": "Hello! What's your name?",
+         "Finnish": "Hei! Mikä sinun nimesi on?",
+         "Erzya": "Чумбра чи! Кода лӓметь?",
+         "Erzya-lat": "Čumbra či! Koda lämeť?"
+      },
+      {
+         "English": "Hello! What's your name?",
+         "Finnish": "Hei! Mikä teidän nimenne on?",
+         "Erzya": "Чумбра чи! Кода лӓменьк?",
+         "Erzya-lat": "Čumbra či! Koda lämeńk?"
+      },
+      {
+         "English": "What’s your name, please?",
+         "Finnish": "Mikä nimesi on?",
+         "Erzya": "Кода лӓметь?",
+         "Erzya-lat": "Koda lämeť?"
+      },
+      {
+         "English": "What’s your name, please?",
+         "Finnish": "Mikä nimenne on?",
+         "Erzya": "Кода лӓменьк?",
+         "Erzya-lat": "Koda lämeńk?"
+      },
+      {
+         "English": "What's your first name?",
+         "Finnish": "Mikä on etunimesi / etunimenne?",
+         "Erzya": "Кода лӓметь / лӓменьк?",
+         "Erzya-lat": "Koda lämeť / lämeńk?"
+      },
+      {
+         "English": "What's your last name (family name)?",
+         "Finnish": "Mikä on sukunimesi / sukunimenne?",
+         "Erzya": "Кода кудолӓметь / кудолӓменьк?",
+         "Erzya-lat": "Koda kudolämeť / kudolämeńk?"
+      },
+      {
+         "English": "What's his/her name?",
+         "Finnish": "Mikä hänen nimensä on?",
+         "Erzya": "Кода (сонзэ) лӓмезэ?",
+         "Erzya-lat": "Koda (sonzë) lämezë?"
+      },
+      {
+         "English": "Your name, please?",
+         "Finnish": "Nimenne, kiitos?",
+         "Erzya": "Лӓменьк, инеськеть?",
+         "Erzya-lat": "Lämeńk, ineśkeť?"
+      },
+      {
+         "English": "Your first name, please?",
+         "Finnish": "Etunimenne, kiitos?",
+         "Erzya": "Лӓменьк, инеськеть?",
+         "Erzya-lat": "Lämeńk, ineśkeť?"
+      },
+      {
+         "English": "Your last name, please?",
+         "Finnish": "Sukunimenne, kiitos?",
+         "Erzya": "Кудолӓменьк, инеськеть?",
+         "Erzya-lat": "Kudolämeńk, ineśkeť?"
+      },
+      {
+         "English": "Could you spell it, please?",
+         "Finnish": "Voisitteko tavata sen?",
+         "Erzya": "А ёвтасыньк, кода те сёрмадови, инеськеть? А ёвтасыньк апак капша, инеськеть?",
+         "Erzya-lat": "A jovtasïńk, koda te śormadovi, ineśkeť? A jovtasïńk apak kapša, ineśkeť?"
+      },
+      {
+         "English": "Could you write it down, please?",
+         "Finnish": "Voisitteko kirjoittaa sen (paperille)?",
+         "Erzya": "А сёрмадсыньк (конёв лангс), инеськеть?",
+         "Erzya-lat": "A śormadsïńk (końov langs), ineśkeť?"
+      },
+      {
+         "English": "Write it down, please.",
+         "Finnish": "Kirjoittakaa se (paperille).",
+         "Erzya": "Сёрмадыньк (конёв лангс), инеськеть.",
+         "Erzya-lat": "Śormadïńk (końov langs), ineśkeť."
+      },
+      {
+         "English": "May I introduce myself?",
+         "Finnish": "Saanko esittäytyä?",
+         "Erzya": "Меревлиде тӓнь ёвтамс, киян мон?",
+         "Erzya-lat": "Merevlide täń jovtams, kijan mon?"
+      },
+      {
+         "English": "Hello! I'm (I am) Maria.",
+         "Finnish": "Hei! Minä olen Maria.",
+         "Erzya": "Чумбра чи! Мон Мария.",
+         "Erzya-lat": "Čumbra či! Mon Marija."
+      },
+      {
+         "English": "My name is Maria. And yours?",
+         "Finnish": "Nimeni on Maria. Entä sinun (nimesi)? / Entä teidän nimenne?",
+         "Erzya": "Монь лӓмем Мария. Кода тонь (лӓметь)? / Кода тыньк (лӓменьк)?",
+         "Erzya-lat": "Moń lämem Marija. Koda toń (lämeť)? / Koda tïńk (lämeńk)?"
+      },
+      {
+         "English": "And yours? And your name?",
+         "Finnish": "Entä sinun (nimesi)?",
+         "Erzya": "Кода тонь (лӓметь)?",
+         "Erzya-lat": "Koda toń (lämeť)?"
+      },
+      {
+         "English": "And yours? And your name?",
+         "Finnish": "Entä teidän nimenne?",
+         "Erzya": "Кода тыньк (лӓменьк)?",
+         "Erzya-lat": "Koda tïńk (lämeńk)?"
+      },
+      {
+         "English": "Here is my business card.",
+         "Finnish": "Tässä on käyntikorttini.",
+         "Erzya": "Тесэ яволявтомкам.",
+         "Erzya-lat": "Tesë javoľavtomkam."
+      },
+      {
+         "English": "Who is he?",
+         "Finnish": "Kuka hän on?",
+         "Erzya": "Кие сон?",
+         "Erzya-lat": "Kije son?"
+      },
+      {
+         "English": "Who is she?",
+         "Finnish": "Kuka hän on?",
+         "Erzya": "Кие сон?",
+         "Erzya-lat": "Kije son?"
+      },
+      {
+         "English": "Have you met Maria already?",
+         "Finnish": "Oletko tavannut jo Marian?",
+         "Erzya": "Тон вастневить Мариянь марто?",
+         "Erzya-lat": "Ton vastneviť Marijań marto?"
+      },
+      {
+         "English": "May I introduce my wife Maria to you?",
+         "Finnish": "Saanko esitellä vaimoni Marian sinulle / teille?",
+         "Erzya": "Мереде монень невтемс тӓть / тӓньк Мариянь, монь нинь?",
+         "Erzya-lat": "Merede moneń nevtems täť / täńk Marijań, moń niń?"
+      },
+      {
+         "English": "I introduce you to my family.",
+         "Finnish": "Esittelen sinut perheelleni.",
+         "Erzya": "Невттян тонь монь кудораськентень.",
+         "Erzya-lat": "Nevtťan toń moń kudoraśkenteń."
+      },
+      {
+         "English": "This is my wife, Maria.",
+         "Finnish": "Tämä on vaimoni, Maria.",
+         "Erzya": "Те ним, Мария.",
+         "Erzya-lat": "Te nim, Marija."
+      },
+      {
+         "English": "Here is my friend John.",
+         "Finnish": "Tässä on ystäväni John.",
+         "Erzya": "Те ялгам, Джон.",
+         "Erzya-lat": "Te jalgam, Džon."
+      },
+      {
+         "English": "Are you Mr Bond?",
+         "Finnish": "Oletteko herra Bond?",
+         "Erzya": "Тынь Бонд-азорось?",
+         "Erzya-lat": "Tïń Bond-azoroś?"
+      },
+      {
+         "English": "And you must be Maria!",
+         "Finnish": "Ja sinä olet varmasti Maria!",
+         "Erzya": "Тон апак кавтолдо Мария!",
+         "Erzya-lat": "Ton apak kavtoldo Marija!"
+      },
+      {
+         "English": "We haven't met before.",
+         "Finnish": "Emme ole tavanneet aikaisemmin.",
+         "Erzya": "Минь ӓзинек вастневе икеле.",
+         "Erzya-lat": "Miń äzinek vastneve ikele."
+      }
+   ]
 }

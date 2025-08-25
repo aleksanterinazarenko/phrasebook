@@ -69,10 +69,7 @@ function renderPhraseForLang(phrases, lang, key) {
   if (transcription) {
     const transP = document.createElement('div');
     transP.textContent = transcription;
-    transP.style.fontStyle = 'italic';
-    transP.style.color = '#555';
-    transP.style.fontSize = '0.9em';
-    transP.style.marginTop = '2px';
+    transP.classList.add('transcription');
     containerDiv.appendChild(transP);
   }
 
@@ -110,19 +107,37 @@ function renderPhrasebook() {
 
     const phrases = phrasebookData[topic];
 
-    const phraseKeys = Object.keys(phrases[leftLang] || phrases[rightLang] || {});
-
-    for (const key of phraseKeys) {
+    for (const phrase of phrases) {
       const row = document.createElement('div');
       row.className = 'phrase-row';
 
       const leftCell = document.createElement('div');
       leftCell.className = 'language';
-      leftCell.appendChild(renderPhraseForLang(phrases, leftLang, key));
+      
+      const leftText = document.createElement('div');
+      leftText.textContent = phrase[leftLang] || '[missing]';
+      leftCell.appendChild(leftText);
+      
+      if (phrase[leftLang + '-lat']) {
+        const leftTrans = document.createElement('div');
+        leftTrans.textContent = phrase[leftLang + '-lat'];
+        leftTrans.classList.add('transcription');
+        leftCell.appendChild(leftTrans);
+      }
 
       const rightCell = document.createElement('div');
       rightCell.className = 'language';
-      rightCell.appendChild(renderPhraseForLang(phrases, rightLang, key));
+      
+      const rightText = document.createElement('div');
+      rightText.textContent = phrase[rightLang] || '[missing]';
+      rightCell.appendChild(rightText);
+      
+      if (phrase[rightLang + '-lat']) {
+        const rightTrans = document.createElement('div');
+        rightTrans.textContent = phrase[rightLang + '-lat'];
+        rightTrans.classList.add('transcription');
+        rightCell.appendChild(rightTrans);
+      }
 
       row.appendChild(leftCell);
       row.appendChild(rightCell);
