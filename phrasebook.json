@@ -1,0 +1,83 @@
+{
+  "Greetings": {
+    "English": {
+      "Hello": "Hello",
+      "Good morning": "Good morning",
+      "Goodbye": "Goodbye"
+    },
+    "Finnish": {
+      "Hello": "Hei",
+      "Good morning": "Hyvää huomenta",
+      "Goodbye": "Näkemiin"
+    },
+    "Estonian": {
+      "Hello": "Tere",
+      "Good morning": "Tere hommikust",
+      "Goodbye": "Hüvasti"
+    },
+    "Erzya": {
+      "Hello": "Шумбра чи",
+      "Good morning": "Шумбра валске",
+      "Goodbye": "Вастомазонок"
+    },
+    "Erzya-lat": {
+      "Hello": "Šumbra či",
+      "Good morning": "Šumbra valske",
+      "Goodbye": "Vastomazonok"
+    }
+  },
+  "Travel": {
+    "English": {
+      "Where is the hotel?": "Where is the hotel?",
+      "I need a taxi.": "I need a taxi.",
+      "How much is it?": "How much is it?"
+    },
+    "Finnish": {
+      "Where is the hotel?": "Missä hotelli on?",
+      "I need a taxi.": "Tarvitsen taksin.",
+      "How much is it?": "Paljonko se maksaa?"
+    },
+    "Estonian": {
+      "Where is the hotel?": "Kus on hotell?",
+      "I need a taxi.": "Mul on vaja taksot.",
+      "How much is it?": "Kui palju see maksab?"
+    },
+    "Erzya": {
+      "Where is the hotel?": "Косо инжекудось?",
+      "I need a taxi.": "Монень эряви такси.",
+      "How much is it?": "Зяро питнезэ?"
+    },
+    "Erzya-lat": {
+      "Where is the hotel?": "Koso inžekudoś?",
+      "I need a taxi.": "Moneń eŕavi taksi.",
+      "How much is it?": "Źaro pitnezë?"
+    }
+  },
+  "Food": {
+    "English": {
+      "I am hungry.": "I am hungry.",
+      "The food is delicious.": "The food is delicious.",
+      "Can I see the menu?": "Can I see the menu?"
+    },
+    "Finnish": {
+      "I am hungry.": "Minulla on nälkä.",
+      "The food is delicious.": "Ruoka on herkullista.",
+      "Can I see the menu?": "Voinko nähdä ruokalistan?"
+    },
+    "Estonian": {
+      "I am hungry.": "Mul on kõht tühi.",
+      "The food is delicious.": "Toit on maitsev.",
+      "Can I see the menu?": "Kas ma saan menüüd näha?"
+    },
+    "Erzya": {
+      "I am hungry.": "Пекем вачсь.",
+      "The food is delicious.": "Ярсамось пек тантей.",
+      "Can I see the menu?": "Мереви неемс лемконёв?"
+    },
+    "Erzya-lat": {
+      "I am hungry.": "Pekem vačś.",
+      "The food is delicious.": "Jarsamoś pek tantej.",
+      "Can I see the menu?": "Merevi nejems lemkońov?"
+    }
+  }
+}
