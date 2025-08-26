@@ -75,8 +75,8 @@
       {
          "English": "Good evening, miss Johnson!",
          "Finnish": "Hyvää iltaa, neiti Johnson!",
-         "Erzya": "Чумбра чокшне, Джонсон-тейтерь!",
-         "Erzya-lat": "Čumbra čokšne, Džonson-tejteŕ!"
+         "Erzya": "Чумбра чокшне, Джонсон-тӓйтерь!",
+         "Erzya-lat": "Čumbra čokšne, Džonson-täjteŕ!"
       },
       {
          "English": "Good evening, ladies and gentlemen!",
@@ -407,4 +407,5 @@
          "Erzya-lat": "Miń äzinek vastneve ikele."
       }
    ]
+
 }
