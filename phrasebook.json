@@ -15,8 +15,8 @@
       {
          "English": "Hello everybody! Hi everyone!",
          "Finnish": "Hei kaikki! Hei kaikille!",
-         "Erzya": "Чумбра чи вӓсенень! Уледе шумбрат!",
-         "Erzya-lat": "Čumbra či väseneń! Ulede šumbrat!"
+         "Erzya": "Чумбра чи вӓсенень! Уледе чумбрат!",
+         "Erzya-lat": "Čumbra či väseneń! Ulede čumbrat!"
       },
       {
          "English": "Good morning!",
@@ -409,4 +409,5 @@
    ]
 
 }
+
 
