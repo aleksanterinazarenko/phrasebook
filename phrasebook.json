@@ -9,8 +9,8 @@
       {
          "English": "Hello! Hi!",
          "Finnish": "Hei! Moi! Terve!",
-         "Erzya": "Ӓрят! Сюк! Шумбра ульть!",
-         "Erzya-lat": "Äŕat! Śuk! Šumbra ulť!"
+         "Erzya": "Ӓрят! Сюк! Чумбра ульть!",
+         "Erzya-lat": "Äŕat! Śuk! Čumbra ulť!"
       },
       {
          "English": "Hello everybody! Hi everyone!",
@@ -361,14 +361,14 @@
       {
          "English": "Have you met Maria already?",
          "Finnish": "Oletko tavannut jo Marian?",
-         "Erzya": "Тон вастневить Мариянь марто?",
-         "Erzya-lat": "Ton vastneviť Marijań marto?"
+         "Erzya": "Тон вастневить (уш) Мариянь марто?",
+         "Erzya-lat": "Ton vastneviť (uš) Marijań marto?"
       },
       {
          "English": "May I introduce my wife Maria to you?",
          "Finnish": "Saanko esitellä vaimoni Marian sinulle / teille?",
-         "Erzya": "Мереде монень невтемс тӓть / тӓньк Мариянь, монь нинь?",
-         "Erzya-lat": "Merede moneń nevtems täť / täńk Marijań, moń niń?"
+         "Erzya": "Мереде монень невтемс тӓть / тӓньк монь нинь, Мариянь?",
+         "Erzya-lat": "Merede moneń nevtems täť / täńk moń niń, Marijań?"
       },
       {
          "English": "I introduce you to my family.",
@@ -391,8 +391,8 @@
       {
          "English": "Are you Mr Bond?",
          "Finnish": "Oletteko herra Bond?",
-         "Erzya": "Тынь Бонд-азорось?",
-         "Erzya-lat": "Tïń Bond-azoroś?"
+         "Erzya": "Тон Бонд-азоро?",
+         "Erzya-lat": "Ton Bond-azoro?"
       },
       {
          "English": "And you must be Maria!",
@@ -409,3 +409,4 @@
    ]
 
 }
+
